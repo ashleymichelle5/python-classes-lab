@@ -1,8 +1,8 @@
 class Game:
     def __init__(self):
-        self.turn = 'X' # Comienza el jugador X
-        self.tie = False # Indica si hay empate
-        self.winner = None # Almacena el ganador
+        self.turn = 'X' 
+        self.tie = False 
+        self.winner = None 
         self.board = {
             'a1': None, 'b1': None, 'c1': None,
             'a2': None, 'b2': None, 'c2': None,
